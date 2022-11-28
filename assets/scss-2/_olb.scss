@@ -1,0 +1,526 @@
+/*Calendar*/
+.schedule {
+    position: relative;
+    background: url(../images/bg/bg_red.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 80px;
+    &-title {
+        text-align: center;
+        h2 {
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold;
+          font-size: 30px;
+          text-transform: uppercase;
+          color: $white;
+          line-height: 1.2;
+        }
+      }
+    &-area {
+      // height: 100%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 150px;
+    }
+    &-container {
+        width: 100%;
+        max-width:900px;
+        padding: 80px 20px 0px 20px;
+        h3{
+          color: #fff;
+        }
+        input[type="submit"] {
+          width: 100%;
+          max-width: 150px;
+          height: 50px;
+          border: 0;
+          background: rgba(247, 52, 122, 1);
+          border-radius: 5px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 16px;
+          color: $white;
+          text-transform: uppercase;
+          cursor: pointer;
+          transition: all 0.4s ease-in-out;
+          float: right;
+          margin: 10px 0px;
+          text-shadow: none;
+          box-shadow: none;
+          &:hover {
+          background: #21d190;
+          }
+      }
+      .mypage{
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: 'Montserrat', sans-serif;
+
+        h2{
+          padding: 10px 0px;
+          font-size: 16px;
+        }
+        .history_list{
+          text-align: center;
+        }
+        tr th{
+          color: #fff !important;
+          background: #521113 !important;
+        }
+        .future_list{
+          text-align: center;
+       
+         tbody tr th{
+          color: #fff !important;
+          background: #521113 !important;
+        }
+        tbody tr td a{
+          color: #52BFA2;
+          font-family: 'ProximaSemiBold';
+        }
+        tbody tr td.cancel a{
+          color: red;
+          font-family: 'ProximaSemiBold';
+        }
+      }
+
+      }
+      .reservation{
+        background-color: #fff;
+        border-radius: 10px;
+        padding:20px 20px 50px 20px;
+        font-family: 'Montserrat', sans-serif;
+        .reservation dt{
+          font-weight:bold;
+        }
+        .reservation dt, .reservation dd{
+          padding: 10px 0 10px 10px !important;
+        }
+
+      }
+      .members-schedule{
+        background-color: #fff;
+        border-radius: 10px;
+        padding:20px 20px 50px 20px;
+        font-family: 'Montserrat', sans-serif;
+        .future_list{
+          text-align: center;
+       
+         tbody tr th{
+          color: #fff !important;
+          background: #521113 !important;
+        }
+        tbody tr td a{
+          color: #52BFA2;
+          font-family: 'ProximaSemiBold';
+        }
+        tbody tr td.cancel a{
+          color: red;
+          font-family: 'ProximaSemiBold';
+        }
+      }
+      }
+      .members-history{
+        background-color: #fff;
+        border-radius: 10px;
+        padding:20px 20px 50px 20px;
+        font-family: 'Montserrat', sans-serif;
+      }
+      .cancel-form{
+        background-color: #fff;
+        border-radius: 10px;
+        padding:20px 20px 50px 20px;
+        font-family: 'Montserrat', sans-serif;
+        .reservation dt{
+          font-weight:bold;
+        }
+        .reservation dt, .reservation dd{
+          padding: 10px 0 10px 10px !important;
+        }
+        .reservation dd{
+          textarea{
+            width: 100%;
+            max-width: 523px;
+            padding: 10px;
+            height: 200px;
+            outline: none;
+            border: none;
+            border: 1px solid #521113;
+
+          }
+        }
+      }
+      .ticket-logs{
+        background-color: #fff;
+        border-radius: 10px;
+        padding:20px 20px 50px 20px;
+        font-family: 'Montserrat', sans-serif;
+        .future_list{
+          text-align: center;
+       
+         tbody tr th{
+          color: #fff !important;
+          background: #521113 !important;
+        }
+        tbody tr td a{
+          color: #52BFA2;
+          font-family: 'ProximaSemiBold';
+        }
+        tbody tr td.cancel a{
+          color: red;
+          font-family: 'ProximaSemiBold';
+        }
+      }
+      }
+      .calendar{
+        table.olb_calendar{
+          // border: 1px solid;
+          // max-width: 900px;
+          margin: 20px 0px;
+          border-radius: 10px;
+          
+        thead,tr th{
+          background-color: #fff;
+        }
+        thead tr th{
+          padding: 50px 20px 20px 20px !important;
+          font-family: 'Montserrat', sans-serif;
+          color:#521113;
+          font-weight: bold;
+          font-size: 16px;
+        }
+        tbody{
+          tr{
+        td.sunday{
+          background-color: #fff;  
+          a{
+            background-color: #fff;  
+
+          }
+          }
+        td.saturday{
+            background-color: #fff;
+            a{
+              background-color: #fff;  
+
+            }
+        }
+        td{
+          // border: 1px solid #69696930;
+          padding: 10px 10px 50px 10px !important;
+          background-color: #fff;
+          a{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            color:#000;
+          }
+        }
+        .today{
+          background: #fff !important;
+          color: #fff;
+          a{
+            background: #521113;
+            padding:10px 12px;
+            border-radius: 50%;
+            color: #fff;
+      
+          }
+        }
+      }
+    }
+  }
+  }
+  .weekly-sched{
+    padding:50px 0px;
+    h2{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      color:#fff;
+      text-align:center;
+      padding:20px 0px;
+    }
+    table.weekly_schedule {
+      width: 100%;
+      margin: 20px 0px;
+      background-color: #fff;
+      border-collapse: separate  !important;
+      border-spacing: 10px;
+
+      tr {
+        th{
+          font-weight: bold;
+          padding: 20px !important;
+          background-color: #fff;
+          color:#000;
+        }
+        td{
+          background-color: #fff !important;
+          border-radius: 10px;
+          border-width: 1px 0px 0;
+          border: 1px solid #6b1c1f1f;
+      }
+
+        }
+        td.open{
+          background-color: #21d190 !important;
+          a{
+            color: #fff  !important;
+      
+          }
+        }
+        td.you{
+          background-color: #F7F0BB !important;
+          color: #fff  !important;
+    
+        }
+        td.closed{
+          background-color: #ed5f61 !important;
+          color: #fff !important;
+          text-transform: capitalize;
+        }
+      }
+     
+      }
+      .list_pagenavi {
+        
+        .next_page a{
+          color: #fff !important;
+          font-size: 12px;
+        }
+        .prev_page a{
+          color: #fff !important;
+          font-size: 12px;
+        
+        }
+        .list_datenavi{
+          color: #fff;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 15px;
+          a{
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+          
+          }
+          }
+      }
+  }
+  .teachers-page{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    tbody tr th{
+      color: #fff !important;
+      background: #521113 !important;
+    }
+    tbody tr td a{
+      color: #52BFA2;
+      font-family: 'ProximaSemiBold';
+    }
+    tbody tr td.cancel a{
+      color: red;
+      font-family: 'ProximaSemiBold';
+    }
+    
+  }
+  .teachers-schedule{
+    background-color: #fff;
+    border-radius: 10px;
+    padding:20px 20px 50px 20px;
+    font-family: 'Montserrat', sans-serif;
+    .future_list{
+      text-align: center;
+   
+     tbody tr th{
+      color: #fff !important;
+      background: #521113 !important;
+    }
+    tbody tr td a{
+      color: #52BFA2;
+      font-family: 'ProximaSemiBold';
+    }
+    tbody tr td.cancel a{
+      color: red;
+      font-family: 'ProximaSemiBold';
+    }
+  }
+  }
+}
+
+
+
+
+/*SCHEDULER FOR TEACHER*/
+.editschedule{
+  
+  .edit_schedule{
+    width: 100%;
+      margin: 20px 0px;
+      background-color: #fff;
+      border-collapse: separate  !important;
+      border-spacing: 10px;
+    tr th{
+      font-weight: bold;
+      padding: 20px !important;
+      background: #fff;
+      border: 1px solid #6b1c1f1f;
+
+      
+    }
+    tr {
+      td{
+        border-radius: 10px  !important;
+        border-width: 1px 0px 0;
+        border: 1px solid #f7347a7d;
+      }
+  }
+    .closed{
+      background-color: #fff;
+    }
+    .open{
+      background-color: #f7347a;
+    }
+   
+  }
+}
+
+
+
+
+  /*Time table schedule*/
+  
+  
+  .timetable-schedule-section .timetable-schedule-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    color: #333333;
+    border-radius: 10px;
+
+  }
+  
+  .timetable-schedule-section .timetable-schedule-content h1::after {
+    content: '';
+    background: linear-gradient(90deg, #8ADA54, #22D6A2);
+    width: 47px;
+    height: 5px;
+    display: block;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .timetable-schedule-section .timetable-schedule-content .calendar-layout, .timetable-layout{
+    padding:50px 0px;
+    width: 100%;
+    // max-width: 900px;
+    margin: auto;
+    
+  }
+  .timetable-schedule-section .timetable-schedule-content .timetable-layout .list_pagenavi .next_page{
+  padding: 0px;
+  }
+  /*blogs*/
+  .single {
+    position: relative;
+    background: url(../images/bg/bg_red.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 80px;
+    &-title {
+        text-align: center;
+        h2 {
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold;
+          font-size: 30px;
+          text-transform: uppercase;
+          color: $white;
+          line-height: 1.2;
+        }
+      }
+    &-area {
+      // height: 100%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 150px;
+    }
+    &-container {
+        width: 100%;
+        max-width:1280px;
+        padding: 80px 20px 0px 20px;
+    }
+    .single-post{
+      border-radius: 10px;
+      padding: 20px;
+      font-family: 'Montserrat', sans-serif;
+      .date-single-layout{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+  
+        .title{
+          font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        text-transform: uppercase;
+        color: #000;
+        background: -webkit-gradient(linear, left top, right top, from(#b91372), to(#6b0f1a));
+        background: linear-gradient(to right, #b91372, #6b0f1a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        // padding:20px 0px 40px 0px;
+        }
+       
+      }
+      .content{
+        padding: 20px 0px;
+        width: 100%;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 10px;
+        img{
+          border-radius: 10px;
+          width: 100%;
+          max-width: 800px;
+        }
+        p{
+          padding: 10px 0px;
+          color:#808080;
+        }
+      }
+      
+    }
+  }
+  .blogs-container-bot h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #000;
+    background: -webkit-gradient(linear, left top, right top, from(#b91372), to(#6b0f1a));
+    background: linear-gradient(to right, #b91372, #6b0f1a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:20px 0px;
+  }
+  .blogs-container-bot .blogs-bot-group{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .blogs-container-bot .blogs-bot-group .bot-group-container p{
+    word-break: break-all;
+  }
+  .blogs-container-bot .blogs-bot-group .bot-group-container{
+    max-width: 260px !important;
+  }
+  .blogs-container-top-left-content .author-date-group, .blogs-container-top-right-content .author-date-group{
+    display: flex;
+  }

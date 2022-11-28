@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'GaeguRegular' !important;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif; font-weight: normal;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    // background: $white;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Montserrat', sans-serif; font-weight: bold;
+}
+
+span, p{
+    font-family: 'Montserrat', sans-serif; font-weight: normal;
+}

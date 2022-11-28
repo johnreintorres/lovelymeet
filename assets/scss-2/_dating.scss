@@ -1,0 +1,432 @@
+.dating-bg{
+  background: #fff !important;
+  padding: 150px 0px !important;
+  height:auto;
+  position: relative;
+.dating {
+    // padding: 100px 0px;
+    &-area {
+      position: relative;
+      overflow: hidden;
+     padding: 0px 20px;
+    }
+    &-container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+       background: #fff;
+       border-radius: 10px;
+       padding:50px;
+
+    }
+    &-title {
+      text-align: center;
+      padding-bottom:20px;
+      h2 {
+        font-family: $b-regular;
+        font-size: 40px;
+        color: $black;
+        background: linear-gradient(to right, #b91372, #6b0f1a);
+        background-clip: text;
+        fill: transparent;
+           }
+    }
+    img#portraitGrande{
+      width: 100%;
+    }
+/*DATING PAGE*/
+// .w3-renc-mebg{
+// 	background-color: #460909!important;
+// }
+// #widgRenc a i{
+// 	color: #fff;
+// }
+// .w3-margin-right{
+// 	margin-right: 0px  !important;
+// }
+// .w3-renc-mebt{
+// 	background-color: #ff9800!important;
+// 	color: #000 !important;
+// }
+// .w3-renc-mebt:hover{
+// 	background-color: #ff9800!important;
+// 	color: #000 !important;
+// }
+// .w3-renc-mebw{
+// 	background-color: #460909!important;
+// 	color: #fff !important;
+
+// }
+// #widgRenc a:hover{
+// 	background-color: #ff9800!important;
+// 	color: #000 !important;
+// }
+// .w3-renc-sebg{
+// 	background-color: #460909!important;
+// }
+// .w3-renc-sebg:hover{
+// 	background-color: #ff9800!important;
+// 	color: #fff !important;
+// }    
+
+&-wave{
+  background: url(../images/testimonials-wave-2.svg) top no-repeat;
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 960/300;
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+  transform:rotate(180deg);
+}
+
+select.w3-select.w3-border.w3-renc-sebg, .w3-renc-inbg{
+  font-family: "FuturaBook";
+  font-size: 16px;
+  color: #000;
+  padding-left: 10px;
+  width: 100%;
+  height: 50px;
+  border: 0;
+  -webkit-box-shadow: 0px 0px 1px 2px #eee;
+  box-shadow: 0px 0px 1px 2px #eee;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  &:focus {
+    outline: 0;
+    box-shadow: 0px 0px 1px 3px rgba(247, 52, 122, 1) !important;
+  }
+}
+
+.w3-renc-sebg{
+  background-color: #fff !important;
+  color: #000 !important;
+}
+.w3-half{
+  padding:10px !important;
+  
+}
+.w3-renc-mebt{
+  background-color: #ed5f61 !important;
+
+}
+
+.w3-renc-mebg{
+  background-color: #521113  !important;
+}
+.w3-margin-right{
+  margin-right: 0px  !important;
+}
+
+}
+
+}
+
+.dating-bg {
+  background: #521113;
+  padding: 150px 0px !important;
+  height: auto;
+  position: relative;
+}
+
+
+
+.dating-bg .dating-area {
+  position: relative;
+  overflow: hidden;
+  padding: 0px 20px;
+}
+
+
+.dating-bg .dating-title {
+  text-align: center;
+  padding-bottom: 20px;
+  
+}
+
+.dating-bg .dating-title h2 {
+  font-family: "BebasRegular";
+  font-size: 59px;
+  line-height: 86px;
+  font-weight: bold;
+  color: #521213;
+  background: none !important;
+}
+
+.dating-bg .dating img#portraitGrande {
+  width: 100%;
+}
+
+.dating-bg .dating-wave {
+  background: url(../images/testimonials-wave-2.svg) top no-repeat;
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 960/300;
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.dating-bg .dating select.w3-select.w3-border.w3-renc-sebg, .dating-bg .dating .w3-renc-inbg {
+  font-family: "FuturaBook";
+  font-size: 16px;
+  color: #000;
+  padding-left: 10px;
+  width: 100%;
+  height: 50px;
+  border: 0;
+  -webkit-box-shadow: 0px 0px 1px 2px #eee;
+  box-shadow: 0px 0px 1px 2px #eee;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.dating-bg .dating select.w3-select.w3-border.w3-renc-sebg:focus, .dating-bg .dating .w3-renc-inbg:focus {
+  outline: 0;
+  -webkit-box-shadow: 0px 0px 1px 3px #f7347a !important;
+          box-shadow: 0px 0px 1px 3px #f7347a !important;
+}
+
+.dating-bg .dating .w3-renc-sebg {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.dating-bg .dating .w3-half {
+  padding: 10px !important;
+}
+
+.dating-bg .dating .w3-renc-mebt {
+  background-color: #ed5f61 !important;
+}
+
+.dating-bg .dating .w3-renc-mebg {
+  background-color: #521113  !important;
+}
+
+.dating-bg .dating .w3-margin-right {
+  margin-right: 0px  !important;
+}
+
+
+
+.dating-bg .dating-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 50px;
+  background: none ;
+  .widgRenc{
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px !important;
+    background:#fff !important;
+    .rencSide{
+      display:none;
+    }
+    .w3-col.m8, .w3-twothird{
+      width:100% !important;
+    }
+    .featuredBox {
+      margin: 0px !important;
+    }
+    .w3-renc-titc{
+      font-size: 35px !important;
+      line-height: 55px;
+      color: #521213 !important;
+      font-weight: bold;
+      padding: 32px 0px;
+      a{
+        color: #521213 !important;
+
+      }
+    }
+    .w3-large.w3-renc-medium-s{
+      color: #C94037;
+    font-weight: bold;
+    line-height: 48px;
+    font-size: 28px !important;
+    }
+    .rencMyHome{
+      padding: 0px 50px;
+
+    }
+  }
+}
+
+/*RENCONTRE PAGES*/
+
+/*rencontre_message_write*/
+.rencMsgWrite textarea.w3-input.w3-renc-inbg{
+	width:100% !important;
+	max-width:900px;
+}
+
+/*rencontre mini portrait.php*/
+.rencontre-home{
+  .rencMiniPortrait{
+    width: 100% !important;
+    max-width: 324px  !important;
+  }
+  .profile-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .years, .ville{
+      font-size: 22px;
+    line-height: 32px;
+    font-family: 'GaeguLight' !important;;
+  }
+    
+  }
+  .mobile{
+    font-size: 22px !important;
+    text-align:center;
+  line-height: 32px;
+  font-family: 'GaeguLight' !important;;
+  }
+  .w3-renc-container-lm{
+    flex-wrap: wrap;
+      display: flex;
+      width: 100%;
+    justify-content:center;
+  }
+  .rencontre-avatar{
+    border-radius:0px;
+     width: 196px !important;
+     border-radius: 50%;
+     
+  }
+  .rencontre-card-layout{
+    width:100% !important;
+    display:flex;
+    justify-content:center;
+  }
+  .w3-card.w3-renc-blbg{
+    padding-bottom: 10px;
+  }
+  .view-details-btn{
+    padding: 27px 22px 41px 22px;
+  .view-details{
+    font-family: "Montserrat", sans-serif;
+      font-size: 30px;
+      line-height: 44px;
+      color: #D56866 !important;
+      letter-spacing: 1px;
+      // padding: 5px 16px;
+      background: #FFE8E8 !important;
+      border-radius: 5px;
+      -webkit-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+      width: 100%;
+      max-width: 236px;
+      margin: auto;
+      font-weight: bold;
+  }
+  .view-details:hover{
+    background: #21d190 !important;
+    border-radius: 20px;
+    color: #fff !important;
+  
+  }
+}
+}
+/*RENCONTRE PORTRAIT*/
+.profile-overview{
+  padding: 30px 49px 4px 49px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+    &__title{
+      font-size: 35px;
+      line-height: 51px;
+      font-weight: bold;
+      color: #521213;
+    }
+    &__edit{
+      font-size: 30px;
+      line-height: 44px;
+      color: #ED5F61;
+    }
+}
+.model-profile{
+  display: flex;
+  padding: 0px 49px;
+  margin: 0px  !important;
+  flex-wrap:wrap;
+  justify-content: center;
+  &__content{
+    width: 100%;
+    max-width: 736px;
+  }
+  .model-name{
+    font-size: 35px;
+    line-height: 37px;
+    font-weight: bold;
+    color: #ED5F61;
+  }
+  .model-cont{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    line-height: 36px;
+    padding: 14px 0px;
+  }
+  .bio{
+    font-size: 25px;
+    line-height: 25px;
+    font-family: 'GaeguLight' !important;
+    color: #ED5F61;
+    word-break: break-word;
+  }
+  .annonce{
+    font-size: 25px;
+    line-height: 36px;
+  }
+ 
+}
+.gallery-profile-layout{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 137px;
+.gallery-profile{
+  padding: 0px 49px;
+
+  &__title{
+   font-size: 35px;
+   line-height: 51px;
+   color: #521213;
+   padding-bottom: 20px;
+  }
+ &__other-details{
+  font-size: 25px;
+  line-height: 36px;
+  padding: 14px 0px;
+  width: 100%;
+  max-width: 600px;
+ }
+}
+.gallery-content{
+  width: 100%;
+  max-width: 285px;
+  padding-bottom: 20px;
+  img{
+    width:139px !important;
+  }
+}
+}
+/*RENCONTRE EDIT PROFILE*/
+.edit-profile{
+  &__title{
+    padding:20px 5px !important;
+    text-align: center;
+
+  }
+}

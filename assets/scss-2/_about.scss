@@ -1,0 +1,220 @@
+.about{
+  // background: url(../images/bg/bg_red.jpg) center no-repeat;
+    background-size: cover; 
+    &-area {
+        position: relative;
+        overflow: hidden;
+       padding: 0px 20px;
+      }
+      &-container {
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 100px 20px;
+      }
+      &-title {
+        padding: 50 0px;
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        h2 {
+          font-family: $b-regular;
+          font-size: 40px;
+          color: $white;
+         }
+         p {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 17px;
+          color: $white;
+          line-height: 1;
+          padding-top: 5px;
+          text-align: center;
+        }
+      }
+      &-wave{
+        background: url(../images/testimonials-wave-2.svg) top no-repeat;
+        background-size: cover;
+        width: 100%;
+        aspect-ratio: 960/300;
+        position: absolute;
+        bottom: -24px;
+        left: 0;
+        transform: rotate(180deg);
+
+    }
+}
+
+.our-story{
+
+    &-area {
+        position: relative;
+        overflow: hidden;
+       padding: 0px 20px;
+      }
+      &-container {
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      &-img {
+        background: url(../images/blob-2.svg) center no-repeat;
+        background-size: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        img {
+          max-width: 400px;
+        }
+      }
+      &-title {
+        padding:20px;
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        h2 {
+          font-family: $b-regular;
+          font-size: 40px;
+          color: $black;
+          background: linear-gradient(to right, #b91372, #6b0f1a);
+          background-clip: text;
+          fill: transparent;
+              }
+         p {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 17px;
+          color: $black;
+          line-height: 1;
+          padding-top: 5px;
+          text-align: center;
+        }
+      }
+
+}
+
+.about {
+  background-size: cover;
+}
+
+.about-area {
+  position: relative;
+  overflow: hidden;
+  padding: 0px 20px;
+}
+
+.about-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+
+.about-title {
+  padding: 50 0px;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.about-title h2 {
+  font-family: "BebasRegular";
+  font-size: 40px;
+  color: #fff;
+}
+
+.about-title p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  color: #fff;
+  line-height: 1;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.about-wave {
+  background: url(../images/testimonials-wave-2.svg) top no-repeat;
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 960/300;
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.our-story-area {
+  position: relative;
+  overflow: hidden;
+  padding: 0px 20px;
+}
+
+.our-story-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our-story-img {
+  background: url(../images/blob-2.svg) center no-repeat;
+  background-size: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.our-story-img img {
+  max-width: 400px;
+}
+
+.our-story-title {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.our-story-title h2 {
+  font-family: "BebasRegular";
+  font-size: 40px;
+  color: #000;
+  background: -webkit-gradient(linear, left top, right top, from(#b91372), to(#6b0f1a));
+  background: linear-gradient(to right, #b91372, #6b0f1a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.our-story-title p {
+  font-family: "FuturaBook";
+  font-size: 17px;
+  color: #000;
+  line-height: 1;
+  padding-top: 5px;
+  text-align: center;
+}

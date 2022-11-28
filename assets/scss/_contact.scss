@@ -1,0 +1,209 @@
+.contact{
+    padding: 50px 0px;
+    background: url(../images/bg/bg_red.jpg) center no-repeat;
+    background-size: cover;
+    padding-bottom: 180px !important;
+    &-area{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1280px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    &-container{
+      
+        width: 100%;
+        max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        
+    }
+    &-title {
+        padding: 50px 0px;
+        text-align: center;
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 35px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color:#fff;
+        text-align: center;
+ 
+        }
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+          color: $black;
+          line-height: 1;
+          padding-top: 5px;
+          color:#fff;
+          text-align: center;
+        }
+      }
+      &-form{
+        background: $white;
+          width: 100%;
+          max-width: 600px;
+          padding:50px;
+          border-radius: 10px;
+
+          .contact-form-title{
+            padding-bottom: 50px!important;
+            text-align: center;
+            h2{
+                background: linear-gradient(to right, #b91372, #6b0f1a);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+          }
+          .input-layout{
+            width: 100%;
+            position: relative;
+            padding-bottom: 20px;
+            
+            label{
+                font-family: "Montserrat", sans-serif;
+                font-size: 12px;
+                color: #808080;
+                text-transform: uppercase;
+                position: absolute;
+                top: -5px;
+                left: 10px;
+                z-index: 2;
+                padding: 0 10px;
+                background: #fff;
+            }
+            input, textarea{
+                font-family: "Montserrat", sans-serif;
+                font-size: 16px;
+                color: #000;
+                padding-left: 10px;
+                width: 100%;
+                height: 50px;
+                border: 0;
+                -webkit-box-shadow: 0px 0px 1px 2px #eee;
+                box-shadow: 0px 0px 1px 2px #eee;
+                border-radius: 5px;
+                cursor: pointer;
+                -webkit-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+                &:focus {
+                    outline: 0;
+                    box-shadow: 0px 0px 1px 3px rgba(247, 52, 122, 1);
+                  }
+            }  
+           
+            textarea{
+                height: 150px;
+                resize: none;
+                padding-top: 10px;
+            }
+            .submit-field{
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            input[type="submit"] {
+                width: 50%;
+                height: 50px;
+                border: 0;
+                background: rgba(247, 52, 122, 1);
+                border-radius: 5px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                color: $white;
+                text-transform: uppercase;
+                cursor: pointer;
+                transition: all 0.4s ease-in-out;
+                &:hover {
+                background: #21d190;
+                }
+            }
+        }
+          }
+
+          .contact-input-layout{
+              input, textarea{
+                font-family: "Montserrat", sans-serif;
+                font-size: 16px;
+                color: #000;
+                padding-left: 10px;
+                width: 100%;
+                height: 50px;
+                border: 0;
+                -webkit-box-shadow: 0px 0px 1px 2px #eee;
+                box-shadow: 0px 0px 1px 2px #eee;
+                border-radius: 5px;
+                cursor: pointer;
+                -webkit-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+                &:focus {
+                    outline: 0;
+                    box-shadow: 0px 0px 1px 3px rgba(247, 52, 122, 1) !important;
+                  }
+              }
+              textarea{
+                height: 150px;
+                resize: none;
+                padding-top: 10px;
+            }
+            p{
+                width: 100%;
+                position: relative;
+                padding-bottom: 20px;
+                label{
+                    font-family: "Montserrat", sans-serif;
+                font-size: 12px;
+                color: #808080;
+                text-transform: uppercase;
+                line-height: 2;
+
+                }
+            }
+            .wpcf7-form-control.has-spinner.wpcf7-submit{
+                width: 50%;
+                height: 50px;
+                border: 0;
+                background: rgba(247, 52, 122, 1);
+                border-radius: 5px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                color: $white;
+                text-transform: uppercase;
+                cursor: pointer;
+                margin: auto;
+                justify-content: center;
+                display: flex;
+                transition: all 0.4s ease-in-out;
+                &:hover {
+                background: #21d190;
+                }
+            }
+          }
+      }
+      .wpcf7-form-control.wpcf7-select{
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        color: #000;
+        padding-left: 10px;
+        width: 100%;
+        height: 50px;
+        border: 0;
+        -webkit-box-shadow: 0px 0px 1px 2px #eee;
+        box-shadow: 0px 0px 1px 2px #eee;
+        border-radius: 5px;
+        cursor: pointer;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        &:focus {
+            outline: 0;
+            box-shadow: 0px 0px 1px 3px rgba(247, 52, 122, 1);
+          }
+    }  
+}

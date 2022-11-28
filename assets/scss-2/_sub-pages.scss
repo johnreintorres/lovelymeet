@@ -1,0 +1,100 @@
+.sub-page-fv {
+    &-area {
+    background: url(../images/bg/bg_red.jpg) center no-repeat;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: multiply;
+    background-size: cover;
+    max-height: 1200px;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+        
+      &::after {
+        content: "";
+      }
+    }
+    &-container {
+      max-width: 1280px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    &-title,
+    &-link {
+      width: 100%;
+      margin: 0 auto;
+      img {
+        width: 100%;
+        height: auto;
+      }
+      h2{
+        font-family: $b-regular;
+        font-size: 40px;
+        color: $white;
+        text-align: center;
+      }
+    }
+    &-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20px;
+      position: relative;
+      z-index: 2;
+      .get-start {
+        font-family: $b-regular;
+        font-size: 18px;
+        color: $white;
+        letter-spacing: 1px;
+        padding: 12px 30px;
+        background: rgba(247, 52, 122, 1);
+        border-radius: 5px;
+        transition: all 0.4s ease-in-out;
+        &:hover {
+          // background: rgba(255, 192, 203, 1);
+          color: $black;
+          background: #21d190;
+          border-radius: 20px;
+        }
+      }
+      img {
+        max-width: 180px;
+        width: 100%;
+      }
+    }
+    // .wave-divider {
+    //     position: absolute;
+    //     bottom: 0;
+    //     left: 0;
+    //     width: 100%;
+    //     overflow: hidden;
+    //     line-height: 0;
+    //     transform: rotate(180deg);
+    // }
+  
+    // .wave-divider svg {
+    //     position: relative;
+    //     display: block;
+    //     width: calc(100% + 1.3px);
+    //     height: 150px;
+    // }
+  
+    // .wave-divider .shape-fill {
+    //     fill: #FFFFFF;
+    // }
+    &-waves {
+      background: url(../images/wave-3.svg) bottom no-repeat;
+      background-size: cover;
+      width: 100%;
+      aspect-ratio: 960/300;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
